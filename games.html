@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Your Selling Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-gamepad"></i>
+                <span>Your Selling Site</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html" class="active">Games</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="#" class="btn-download">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Games Header -->
+    <section class="games-header">
+        <h1>All The Games We've Got</h1>
+        <p>Pick whatever game you're playing and see what mods we have for it</p>
+    </section>
+
+    <!-- Games Filter -->
+    <section class="featured-games">
+        <div class="container">
+            <div class="games-filter">
+                <button class="filter-btn active" data-filter="all">All Games</button>
+                <button class="filter-btn" data-filter="gta">GTA V</button>
+                <button class="filter-btn" data-filter="fortnite">Fortnite</button>
+                <button class="filter-btn" data-filter="csgo">CS:GO</button>
+            </div>
+
+            <div class="games-grid">
+                <div class="game-card" data-game="gta">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=GTA+V" alt="GTA V">
+                        <div class="game-overlay">
+                            <span class="game-badge">Popular</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Grand Theft Auto V</h3>
+                        <p>Got everything you need for GTA. Money generators that actually work, spawn any car you want, and menus that don't feel clunky.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 25K+</span>
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                            <span><i class="fas fa-tools"></i> 12 Mods</span>
+                        </div>
+                        <a href="game-detail.html?game=gta" class="btn btn-primary btn-small">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="game-card" data-game="fortnite">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Fortnite" alt="Fortnite">
+                        <div class="game-overlay">
+                            <span class="game-badge">New</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Fortnite</h3>
+                        <p>Just added these and they're working great. Aimbot feels smooth, ESP is clean, and the movement stuff is pretty fun to mess with.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 18K+</span>
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                            <span><i class="fas fa-tools"></i> 8 Mods</span>
+                        </div>
+                        <a href="game-detail.html?game=fortnite" class="btn btn-primary btn-small">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="game-card" data-game="csgo">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=CS%3AGO" alt="CS:GO">
+                        <div class="game-overlay">
+                            <span class="game-badge">Updated</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Counter-Strike: Global Offensive</h3>
+                        <p>These CS:GO tools are solid. The aimbot doesn't look obvious, ESP works like it should, and the bhop script is clean.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 32K+</span>
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                            <span><i class="fas fa-tools"></i> 15 Mods</span>
+                        </div>
+                        <a href="game-detail.html?game=csgo" class="btn btn-primary btn-small">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="game-card" data-game="valorant">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Valorant" alt="Valorant">
+                        <div class="game-overlay">
+                            <span class="game-badge">Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Valorant</h3>
+                        <p>Working on Valorant stuff right now. Should have something ready soon, just need to test it properly first.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 0</span>
+                            <span><i class="fas fa-star"></i> -</span>
+                            <span><i class="fas fa-tools"></i> Coming Soon</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary btn-small" style="opacity: 0.5; cursor: not-allowed;">Coming Soon</a>
+                    </div>
+                </div>
+
+                <div class="game-card" data-game="apex">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Apex+Legends" alt="Apex Legends">
+                        <div class="game-overlay">
+                            <span class="game-badge">Beta</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Apex Legends</h3>
+                        <p>These are still in beta, so they might be a bit buggy. Use at your own risk, but they do work most of the time.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 5K+</span>
+                            <span><i class="fas fa-star"></i> 4.2</span>
+                            <span><i class="fas fa-tools"></i> 5 Mods</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary btn-small">Check It Out</a>
+                    </div>
+                </div>
+
+                <div class="game-card" data-game="minecraft">
+                    <div class="game-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Minecraft" alt="Minecraft">
+                        <div class="game-overlay">
+                            <span class="game-badge">Popular</span>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Minecraft</h3>
+                        <p>Classic Minecraft hacks. X-ray, fly mode, all that good stuff. Works on most servers too.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-download"></i> 15K+</span>
+                            <span><i class="fas fa-star"></i> 4.6</span>
+                            <span><i class="fas fa-tools"></i> 10 Mods</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-small">Check It Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Your Selling Site</h3>
+                    <p>Just gamers making mods for other gamers. No BS, just stuff that works.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> support@yoursellingsite.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Available</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Selling Site. All rights reserved. | Made by <a href="#" style="color: var(--primary-color); text-decoration: none;">bfd9</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
