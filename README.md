@@ -1,2 +1,1 @@
-# Selling-Site
-A Site Where you can sell your things like fivem stuff Gta Stuff or other stuff like fornite Csgo Warzone or any other Games Its easy to understand and to update
+Modern gaming mods website with red theme and animated background. Fully responsive, includes game categories, mod listings, support section, and smooth animations. Built with HTML, CSS, and JavaScript - no frameworks needed.
